@@ -9,8 +9,8 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
-import com.devmesit3r.noteapp.ui.feature_note.presentation.util.NoteOrder
-import com.devmesit3r.noteapp.ui.feature_note.presentation.util.OrderType
+import com.devmesit3r.noteapp.ui.feature_note.domain.util.NoteOrder
+import com.devmesit3r.noteapp.ui.feature_note.domain.util.OrderType
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

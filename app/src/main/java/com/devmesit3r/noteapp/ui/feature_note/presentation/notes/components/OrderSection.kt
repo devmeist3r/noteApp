@@ -4,8 +4,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.devmesit3r.noteapp.ui.feature_note.presentation.util.NoteOrder
-import com.devmesit3r.noteapp.ui.feature_note.presentation.util.OrderType
+import com.devmesit3r.noteapp.ui.feature_note.domain.util.NoteOrder
+import com.devmesit3r.noteapp.ui.feature_note.domain.util.OrderType
 
 @Composable
 fun OrderSection(

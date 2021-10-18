@@ -2,8 +2,8 @@ package com.devmesit3r.noteapp.ui.feature_note.domain.use_case
 
 import com.devmesit3r.noteapp.ui.feature_note.data.repository.NoteRepository
 import com.devmesit3r.noteapp.ui.feature_note.domain.model.Note
-import com.devmesit3r.noteapp.ui.feature_note.presentation.util.NoteOrder
-import com.devmesit3r.noteapp.ui.feature_note.presentation.util.OrderType
+import com.devmesit3r.noteapp.ui.feature_note.domain.util.NoteOrder
+import com.devmesit3r.noteapp.ui.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
